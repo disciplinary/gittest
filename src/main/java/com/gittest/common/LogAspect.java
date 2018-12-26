@@ -23,6 +23,7 @@ import java.lang.reflect.Method;
 @Aspect
 @Component("logAspect")
 public class LogAspect {
+
     private static final Logger log = LoggerFactory.getLogger(LogAspect.class);
 
     // 配置织入点

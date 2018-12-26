@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
+
     private static final Logger log = LoggerFactory.getLogger(HelloController.class);
 
     @RequestMapping("/hello")
