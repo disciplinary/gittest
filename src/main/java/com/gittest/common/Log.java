@@ -13,6 +13,7 @@ import java.lang.annotation.*;
 @Documented
 public @interface Log {
 
+
     /** 模块 */
     String title() default "";
 
