@@ -18,6 +18,8 @@ public class HelloController {
 
     private static final Logger log = LoggerFactory.getLogger(HelloController.class);
 
+
+
     @RequestMapping("/hello")
     //对应的自定义注解，当方法上写这个注解时，就会进入切面类中
     @Log(title="哈喽模块",action="say哈喽")
